@@ -93,55 +93,51 @@ With this project, we have the following aims:
 
 Thanks to the following projects & people:
 * [README Template](https://github.com/othneildrew/Best-README-Template) by othneildrew
-* [Memberstack](http://memberstack.com) web login program
+* [Memberstack](http://memberstack.com) web login program (affiliate of Signal Kinetics)
+* [StackerHQ](http://stackerhq.app) (Integrate spreadsheet applications like Airtable with your web application)
+* [Hydejack](http://github.com/hydecorp) by QWTEL
+
+
+**Kinetic Team**
+* [Liam Arbuckle](http://l.skinetics.tech) - Project Maintainer & Designer
+* [Arthur Passos](http://github.com/artpassos) - Designer
+* [Website](http://app.skinetics.tech)
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Our platform is still a work-in-progress, however it's free to try out and [anyone can signup/register](https://ar.skinetics.tech/login/index.html). The landing page is built with Bootstrap & Shoelace.style:
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+[![](https://img.shields.io/npm/dw/@shoelace-style/shoelace?label=npm)](http://shoelace.style)
+![](https://img.shields.io/badge/license-MIT-232323.svg?style=flat)
 
 
+### Modifying
+The SK Web platform is split between the following repositories as of April 2021 as our landing page undergoes reconstruction by Arthur:
+* [Signal-K/Signal-K.github.io](http://github.com/signal-k/signal-k.github.io) - Landing page & registration/login forms
+* [Acord-Robotics/Account](#) - Admin pages for the Kinetic Team
+* [Acord-Robotics/Stellarios](http://ar.skinetics.tech/stellarios/compass) - Documentation and collaboration space
+
+All our repositories are public and open-source, so if you're wanting to contribute or fork our work feel free to do so.
 
 <!-- USAGE EXAMPLES -->
-## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/acord-robotics/account/issues) for a list of proposed features (and known issues).
+
+The roadmap listed on this README.md file is not static and is frequently changed, moved around and updated
+
+### April 2021
+1. Clean up [Documentation](http://github.com/acord-robotics/stellarios) repository, including Master Branch. 
+2. Organise documentation for major components of the "Kinetic Network"
+3. Begin implementing Web Application for managing your in-game character
+
+### May 2021
+1. Begin implementing newly designed landing page
+2. Implement submodule model for Github/Acord-Robotics repositories in conjunction with Github/Signal-K
 
 
 
@@ -155,23 +151,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
